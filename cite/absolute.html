@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jednostki w CSS</title>
+        <meta name="author" content="Hubert Filas">
+        <meta name="description" content="Witryna opisująca jednostki w CSS">
+
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/commons.css">
+    </head>
+    <body>
+        <div class="main fadein">
+            <h1>Jednostki bezwzględne</h1>
+            <p>
+                Jednostki bezwzględne są przeciwieństwem jednostek względnych - mają stałą i niezmienną rzeczywistą wartość, niezależnie od wielkości ekranu, urządzenia czy przeglądarki. Dzięki temu mogą być używane tam, gdzie wymagana jest precyzja. Aczkolwiek ich stałość może przeszkadzać w tworzeniu elastycznego interfejsu.
+            </p>
+            <table>
+                <tr>
+                    <th><p class="cm">Symbol Jednostki</p></th>
+                    <th><p class="cm">Wyjaśnienie</p></th>
+                    <th><p class="cm">Przykład</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">cm</p></th>
+                    <th><p class="cm">Centymetry</p></th>
+                    <th><p class="cm" style="font-size: 1cm;">1cm</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">mm</p></th>
+                    <th><p class="cm">milimetry</p></th>
+                    <th><p class="cm" style="font-size: 5mm;">5mm</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">in</p></th>
+                    <th><p class="cm">cale(inches)</p></th>
+                    <th><p class="cm" style="font-size: 1in;">1in</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">px</p></th>
+                    <th><p class="cm">piksele</p></th>
+                    <th><p class="cm" style="font-size: 1px;">1px</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">pt</p></th>
+                    <th><p class="cm">punkty(używane w czcionkach)</p></th>
+                    <th><p class="cm" style="font-size: 9pt;">9pt</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">pc</p></th>
+                    <th><p class="cm">piki</p></th>
+                    <th><p class="cm" style="font-size: 1pc;">1pc</p></th>
+                </tr>
+            </table>
+            <p style="margin-top: 15px; margin-bottom: 15px;">Istnięją także jednostki które nie odnoszą się do wielkości lub pozycji - Są także jednostki używane do określania obrotu...</p>
+            <table>
+                <tr>
+                    <th><p class="cm">Symbol Jednostki</p></th>
+                    <th><p class="cm">Wyjaśnienie</p></th>
+                    <th><p class="cm">Przykład</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">deg</p></th>
+                    <th><p class="cm">Stopnie. 360 stopni - pełen obrót. Gradient niebieskiego pola w tle jest obrócony o 90deg</p></th>
+                    <th><p class="cm" style="rotate: 45deg;">45*</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">rad</p></th>
+                    <th><p class="cm">radiany. 2π rad - pełen obrót</p></th>
+                    <th><p class="cm" style="rotate: 2rad; margin-top: 7px; margin-bottom: 7px;">2rad</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">grad</p></th>
+                    <th><p class="cm">grady(gon). 400 grad - pełen obrót, rzadko używany.</p></th>
+                    <th><p class="cm" style="rotate: 200grad;">200grad</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">turn</p></th>
+                    <th><p class="cm">obroty. 1 turn = 360 deg</p></th>
+                    <th><p class="cm" style="rotate: 0.25turn; margin-top: 30px; margin-bottom: 30px;">0.25turn</p></th>
+                </tr>
+            </table>
+            <p style="margin-top: 15px; margin-bottom: 15px;">...oraz czasu</p>
+            <table>
+                <tr>
+                    <th><p class="cm">Symbol Jednostki</p></th>
+                    <th><p class="cm">Wyjaśnienie</p></th>
+                    <th><p class="cm">Przykład</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">s</p></th>
+                    <th><p class="cm">sekundy</p></th>
+                    <th><p class="cm a1">20 sekund (od odświerzenia strony)</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cm">ms</p></th>
+                    <th><p class="cm">milisekundy</p></th>
+                    <th><p class="cm a2">6000ms (od odświerzenia strony)</p></th>
+                </tr>
+            </table>
+            <a href="../index.html"><img src="../img/return.png" alt="return" class="btnimg"></a>
+            <a href="relative.html"><img src="../img/wzglendne-btn.png" alt="relative" class="btnimg"></a>
+            <p>© 2025 Hubert Filas &ndash; Jednostki CSS</p>
+        </div>
+    </body>
+</html>

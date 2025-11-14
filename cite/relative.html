@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jednostki w CSS</title>
+        <meta name="author" content="Hubert Filas">
+        <meta name="description" content="Witryna opisująca jednostki w CSS">
+
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/commons.css">
+    </head>
+    <body>
+        <div class="main fadein">
+            <h1>Jednostki względne</h1>
+            <p>
+                Jednostki względne są fundamentem tworzenia elastycznego front-endu. Pozwalają one projektować interfejsy pasujące do każdego urządzenia i ekranu, ponieważ nie mają określonej wielkości rzeczywistej, a raczej "dopasowują się" do warunków. Mimo swojej 
+                elastyczności, ustalenie jak dokładnie działają może być trudne. Poniżej zobaczysz tabele z wyjaśnieniem oraz przykładami jednostek względnych(ang: relative units)
+            </p>
+            <table>
+                <tr>
+                    <th><p class="cm">Symbol Jednostki</p></th>
+                    <th><p class="cm">Wyjaśnienie</p></th>
+                    <th><p class="cm">Przykład</p></th>
+                </tr>
+                <tr>
+                    <td><p class="cm">em</p></td>
+                    <td><p class="cm">Jednostka względna do wielkości czcionki elementu. Po prawej przykład 2em, czyli 2 razy wielkość czcionki</p></td>
+                    <td><p class="cm" style="font-size: 2em;">2em</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">ex</p></td>
+                    <td><p class="cm">Jednostka względna do wielkości x używanej czcionki. Po prawej przykład 2ex, czyli 2 razy wielkość x czcionki</p></td>
+                    <td><p class="cm" style="font-size: 2ex;">2ex</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">ch</p></td>
+                    <td><p class="cm">Jednostka równa wielkości cyfry zero.</p></td>
+                    <td><p class="cm" style="font-size: 4ch;">4ch</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">rem</p></td>
+                    <td><p class="cm">Jednostka równa wielkości czcionki elementu</p></td>
+                    <td><p class="cm" style="font-size: 2rem;">2rem</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">vw</p></td>
+                    <td><p class="cm">Jednostka równa 1% szerokości viewportu(okna strony)</p></td>
+                    <td><p class="cm" style="font-size: 1vw;">1vw</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">vh</p></td>
+                    <td><p class="cm">Jednostka równa 1% wysokości viewportu(okna strony)</p></td>
+                    <td><p class="cm" style="font-size: 1vh;">1vh</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">vmin</p></td>
+                    <td><p class="cm">Jednostka równa 1% mniejszej wielkości viewportu(okna strony) np. jeśli wysokość jest mniejsza niż szerokość 1vh = 1vmin</p></td>
+                    <td><p class="cm" style="font-size: 1vmin;">1vmin</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">vmax</p></td>
+                    <td><p class="cm">Jednostka równa 1% mniejszej wielkości viewportu(okna strony) np. jeśli szerokość jest większa niż wysokość 1vw = 1vmax</p></td>
+                    <td><p class="cm" style="font-size: 1vmax;">1vmax</p></td>
+                </tr>
+                <tr>
+                    <td><p class="cm">%</p></td>
+                    <td><p class="cm">Jednostka równa 1% wielkości elementu nadrzędnego</p></td>
+                    <td><p class="cm" style="font-size: 1%;">1%</p></td>
+                </tr>
+            </table>
+            <h2 style="margin-top: 15px; margin-bottom: 15px;">Nie wszystkie jednostki są równie pożyteczne. Jednostki poniżej zostaną przez ciebie prawdopodobnie najczęściej wykorzystywane.</h2>
+            <p>Oto przykład paska o szerokości 50% szerokości niebieskiej sekcji(%)</p>
+            <img src="../img/red.png" alt="example" height="20" style="width: 50%;">
+            <p>a to pasek o szerokości 50% viewportu(50vw)</p>
+            <img src="../img/red.png" alt="example" height="20" style="width: 50vw;">
+            <p>a to pasek o szerokości 5 zer</p>
+            <img src="../img/red.png" alt="example" height="20" style="font-size: 3ch; width: 5ch;">
+            <p style="font-size: 3ch;">00000</p>
+            <a href="../index.html"><img src="../img/return.png" alt="return" class="btnimg"></a>
+            <a href="absolute.html"><img src="../img/bezwzglendne-btn.png" alt="absolute" class="btnimg"></a>
+            <p>© 2025 Hubert Filas &ndash; Jednostki CSS</p>
+        </div>
+    </body>
+</html>

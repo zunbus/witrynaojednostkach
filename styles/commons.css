@@ -1,5 +1,14 @@
+.fadein {
+    animation: fadein 0.5s forwards;
+    opacity: 0;
+}
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
 h1 {
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -22,25 +31,42 @@ p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 body {
     background: linear-gradient(#000, #0AA);
-    height: 101vh;
+    height: 100vh;
     margin: 0;
 
     text-align: center;
     color: white;
 }
 
+table, th, td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: aliceblue;
+    border-collapse: collapse;
+    margin: auto;
+
+    padding: 5px 5px;
+}
+th {
+    font-weight: bold;
+}
+
+.cm{
+    margin: 0;
+}
+
 .main {
     background: linear-gradient(90deg,#0060b9, #0084ff, #0060b9);
     color: white;
-    height: 98.9vh;
+    height: 98.4vh;
     width: 60%;
     border-color: #000;
     border-width: 0px 2px 0px 2px;
@@ -51,7 +77,46 @@ body {
     text-align: center;
 }
 
-.centerer {
+.centerwidth {
     display: flex;
     justify-content: center;
+}
+
+.centerheight {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnimg {
+    transition: all 0.2s;
+    opacity: 80%;
+    width: 450px;
+}
+
+.btnimg:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+.a1 {
+    animation: a1 20s forwards;
+    opacity: 0;
+}
+@keyframes a1 {
+    to {
+        opacity: 1;
+    }
+}
+
+.a2 {
+    animation: a2 6000ms forwards;
+    opacity: 0;
+}
+@keyframes a2 {
+    to {
+        opacity: 1;
+    }
 }

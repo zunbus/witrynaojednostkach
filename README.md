@@ -11,9 +11,13 @@ Statyczna strona internetowa z 3 plikami .html oraz 2 plikami .css służąca ja
 3. Struktura projektu:
 
 /cite → Podstrony (.html)
+
 /img → obrazy
+
 /styles → pliki CSS
+
 index.html → strona główna
+
 README.md → plik README
 
 4. Host:

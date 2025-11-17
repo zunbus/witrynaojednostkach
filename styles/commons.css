@@ -77,8 +77,7 @@ th {
     border-style: solid;
     padding-bottom: 20px;
     
-    position: relative;
-    overflow: hidden;
+
     
     padding: 10px 10px;
     margin: auto;
@@ -129,6 +128,7 @@ th {
     }
 
 }
+
 
 
 

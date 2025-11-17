@@ -40,6 +40,8 @@ p {
 body {
     background: linear-gradient(#000, #0AA);
     height: 100vh;
+    width: 100vw;
+    
     margin: 0;
 
     text-align: center;
@@ -119,4 +121,5 @@ th {
     to {
         opacity: 1;
     }
+
 }

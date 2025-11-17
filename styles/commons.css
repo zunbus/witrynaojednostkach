@@ -66,6 +66,8 @@ th {
 }
 
 .main {
+    display: flex;
+    
     background: linear-gradient(90deg,#0060b9, #0084ff, #0060b9);
     color: white;
     height: 98.4vh;
@@ -125,5 +127,6 @@ th {
     }
 
 }
+
 
 

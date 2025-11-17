@@ -74,6 +74,7 @@ th {
     border-width: 0px 2px 0px 2px;
     min-width: 0;
     border-style: solid;
+    padding-bottom: 20px;
 
     padding: 10px 10px;
     margin: auto;
@@ -124,4 +125,5 @@ th {
     }
 
 }
+
 
